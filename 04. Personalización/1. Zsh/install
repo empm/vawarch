@@ -1,0 +1,21 @@
+# Guardar el historial
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+
+# Colors
+alias la='ls -a --color=auto'
+alias ls='ls --color=auto'
+
+# Comandos vawarch
+alias vawainstallall='sudo pacman -S'
+alias vawainstall='yes | sudo pacman -S'
+alias vawavimconf='echo "
+    set number\n
+    set relativenumber\n
+    set tabstop=4\n
+    set shiftwidth=4\n
+    set autoindent\n
+    set hlsearch\n
+    set incsearch\n
+    syntax on" >  ~/.vimrc'
