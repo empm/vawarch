@@ -19,3 +19,12 @@ alias vawavimconf='echo "
     set hlsearch\n
     set incsearch\n
     syntax on" >  ~/.vimrc'
+
+
+
+# Configuracion 2025
+- Instalacion de g-ls 
+- Instalacion de lsd
+- Instalacion de bat
+
+

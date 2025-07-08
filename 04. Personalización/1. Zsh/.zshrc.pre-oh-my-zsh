@@ -1,0 +1,15 @@
+# VAWA CONF 2025
+
+# Guardar el historial
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+
+# bat ~ cat
+alias ct='bat'
+
+# g-ls
+alias l='g -# --format tb --icons'
+alias ll='g -# --format tb --file-type --all --title --icons'
+alias ls='g --perm --icons --time --group --owner --size --title --show-hidden'
+
